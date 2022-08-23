@@ -12,12 +12,8 @@ const Nav: React.FC = () => {
         <TranslatedText translationId={4}>Tokenomic</TranslatedText>
       </StyledAbsoluteLink>
       <StyledAbsoluteLink href=""></StyledAbsoluteLink>
-      <StyledAbsoluteLink href="" className="active">
+      <StyledAbsoluteLink href="https://app.puginu.finance/#/swap" className="active">
         <TranslatedText translationId={8}>Exchange</TranslatedText>
-      </StyledAbsoluteLink>
-      <StyledAbsoluteLink href=""></StyledAbsoluteLink>
-      <StyledAbsoluteLink href="">
-     <TranslatedText translationId={14}></TranslatedText>
       </StyledAbsoluteLink>
     </StyledNav>
   )
