@@ -112,9 +112,9 @@ export default function Menu() {
             <MessageCircle size={14} />
             <TranslatedText translationId={34}>Telegram</TranslatedText>
           </MenuItem>
-          <MenuItem id="link" href="https://pancakeswap.info">
+          <MenuItem id="link" href="https://puginu.finance/tokenomic">
             <PieChart size={14} />
-            Analytics
+            Tokenomic
           </MenuItem>
         </MenuFlyout>
       )}
