@@ -80,7 +80,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = ''
+const CODE_LINK = 'https://github.com/puginufinance/'
 
 export default function Menu() {
   const node = useRef<HTMLDivElement>()
@@ -96,9 +96,9 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="/">
+          <MenuItem id="link" href="https://puginu.finance/">
             <Info size={14} />
-            
+            Home
           </MenuItem>
           <MenuItem id="link" href="https://medium.com/@puginu-finance">
             <BookOpen size={14} />
@@ -106,7 +106,7 @@ export default function Menu() {
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
-            
+            Github
           </MenuItem>
           <MenuItem id="link" href="https://t.me/PuginuFinance">
             <MessageCircle size={14} />
