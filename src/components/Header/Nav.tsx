@@ -17,7 +17,7 @@ const Nav: React.FC = () => {
       </StyledAbsoluteLink>
       <StyledAbsoluteLink href=""></StyledAbsoluteLink>
       <StyledAbsoluteLink href="">
-        <TranslatedText translationId={14}></TranslatedText>
+     <TranslatedText translationId={14}></TranslatedText>
       </StyledAbsoluteLink>
     </StyledNav>
   )
