@@ -80,7 +80,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/pancakeswap'
+const CODE_LINK = ''
 
 export default function Menu() {
   const node = useRef<HTMLDivElement>()
@@ -100,21 +100,21 @@ export default function Menu() {
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://docs.pancakeswap.finance">
+          <MenuItem id="link" href="https://medium.com/@puginu-finance">
             <BookOpen size={14} />
-            <TranslatedText translationId={10}>Docs</TranslatedText>
+            <TranslatedText translationId={10}>Medium</TranslatedText>
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
-            Code
+            
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/PancakeSwap">
+          <MenuItem id="link" href="https://t.me/PuginuFinance">
             <MessageCircle size={14} />
             <TranslatedText translationId={34}>Telegram</TranslatedText>
           </MenuItem>
-          <MenuItem id="link" href="https://pancakeswap.info">
+          <MenuItem id="link"">
             <PieChart size={14} />
-            Analytics
+            
           </MenuItem>
         </MenuFlyout>
       )}
