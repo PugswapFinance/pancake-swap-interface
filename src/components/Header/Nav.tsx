@@ -5,19 +5,19 @@ import TranslatedText from '../TranslatedText'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledAbsoluteLink href="https://pancakeswap.finance/farms">
-        <TranslatedText translationId={2}>Farm</TranslatedText>
+      <StyledAbsoluteLink href="https://puginu.finance">
+        <TranslatedText translationId={2}>Home</TranslatedText>
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://pancakeswap.finance/staking">
-        <TranslatedText translationId={4}>Staking</TranslatedText>
+      <StyledAbsoluteLink href="https://puginu.finance/tokenomic">
+        <TranslatedText translationId={4}>Tokenomic</TranslatedText>
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://pancakeswap.finance/syrup">SYRUP Pool</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://exchange.pancakeswap.finance" className="active">
+      <StyledAbsoluteLink href=""></StyledAbsoluteLink>
+      <StyledAbsoluteLink href="" className="active">
         <TranslatedText translationId={8}>Exchange</TranslatedText>
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://pancakeswap.info">Analytics</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://pancakeswap.finance/lottery">
-        <TranslatedText translationId={14}>Lottery</TranslatedText>
+      <StyledAbsoluteLink href=""></StyledAbsoluteLink>
+      <StyledAbsoluteLink href="">
+        <TranslatedText translationId={14}></TranslatedText>
       </StyledAbsoluteLink>
     </StyledNav>
   )
