@@ -98,7 +98,7 @@ export default function Menu() {
         <MenuFlyout>
           <MenuItem id="link" href="/">
             <Info size={14} />
-            About
+            
           </MenuItem>
           <MenuItem id="link" href="https://medium.com/@puginu-finance">
             <BookOpen size={14} />
